@@ -1,0 +1,17 @@
+[package]
+name = "contract_source_metadata"
+version = "0.1.0"
+edition = "2021"
+authors = ["iamochuko <https://github.com/iamochuko>"]
+license-file = "./LICENSE"
+homepage = "https://github.com/iamochuko/contract-source-metadata"
+repository = "https://github.com/iamochuko/contract-source-metadata"
+keywords = ["Standard", "Smart Contracts", "Auditing", "verification"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+near-sdk = "4.0.0"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+bench = false
