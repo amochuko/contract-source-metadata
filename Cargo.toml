@@ -1,5 +1,5 @@
 [package]
-name = "contract_source_metadata"
+name = "contract-source-metadata"
 version = "0.1.0"
 edition = "2021"
 authors = ["iamochuko <https://github.com/iamochuko>"]
